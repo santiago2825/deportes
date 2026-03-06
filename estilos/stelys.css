@@ -2,7 +2,7 @@ body{
     background-color: rgb(236, 215, 255);
 }
 
-nav ul{
+ul{
     list-style: none;
     padding: 25px;
     margin: 0 auto;
@@ -10,7 +10,7 @@ nav ul{
     grid-row: auto;
     justify-content: center;
 }
-nav li a{
+li a{
     text-decoration: none;
     color: white;
     padding: 6px;
@@ -22,13 +22,20 @@ header{
     border-radius: 15px;
 }
 main{
+    border-radius: 8px;
+    background-color: rgb(126, 90, 160);
+    border: 1px solid rgb(211, 107, 231);
+    padding: 8px;
+}
+section{
     background-color: rgb(237, 192, 248);
     padding: 20px;
     border-radius: 15px;
     margin: 0 auto;
     width: 80%;
     font-family: cursive;
-    border: 1px solid purple;
+    border: 2px solid rgb(97, 2, 97);
+    box-shadow: 4px 4px  rgb(97, 2, 97);
 }
 .contenedor{
     justify-content: center;
