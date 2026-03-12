@@ -4,71 +4,98 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    
+    <link rel="stylesheet" href="/estilos/formulario.css">
 </head>
 <body>
-    <form action="">
-        <h2>ingrese sus datos </h2>
-        <label for="">Ingrese su nombre</label>
-        <br>
-        <input type="text" placeholder="Ingrese su nombre" required>
-        <br>
-        <label for="">ingrese su apellido</label>
-        <br>
-        <input type="text" placeholder="Ingrese su apellido" required>
-        <br>
-        <label for="">numero de documento</label>
-        <br>
-            <select name="" id="">
-                <option value="cc" disabled>tipo</option>
-                <option value="cc">C.C</option>
-                <option value="ti">T.I</option>
-                <option value="ce">Otro</option>
-            </select>
-        <input type="number" placeholder="Ingrese su numero de documento" required>
-        <br>
-        <label for="">correo electronico</label>
-        <br>
-        <input type="email" placeholder="Ingrese su correo electronico" required>
-        <br>
-        <label for="">numero de telefono</label>
-        <br>
-        <input type="tel" placeholder="Ingrese su numero de telefono" required>
-        <br>
-        <label for="">direccion</label>
-        <br>
-        <input type="text" placeholder="Ingrese su direccion" required>
-        <br>
-        <label for="">fecha de nacimiento</label>
-        <br>
-        <input type="date" required>
-        <br>
-        <label for="">edad</label>
-        <br>
-        <input type="number" placeholder="Ingrese su edad" required>
-        <br>
-        <label for="">genero</label>
-        <br>
-        <input type="checkbox" name="" id="">mujer
-        <input type="checkbox" name="" id="">hombre
-        <input type="checkbox" name="" id="">otro
-        <br>
-        <label for="">preferencia</label>
-        <br>
-        <select name="" id="">
-            <optgroup>
-                <option value="futbol">futbol</option>
-                <option value="baloncesto">baloncesto</option>
-                <option value="tenis">tenis</option>
-                <option value="natacion">natacion</option>
-            </optgroup>
-        </select>
-        <br>
-        <label for="">comentarios</label>
-        <br>
-        <textarea name="" id="" placeholder="Ingrese sus comentarios" required></textarea>
-        <br>
-        <button type="submit">enviar</button>
-    </form>
+    <div class="formulario">
+        <form action="/formulario.html">
+            <h2>Ingrese sus datos</h2>
+            <div class="fila">
+                <div class="campo">
+                    <label>Nombre</label>
+                    <input type="text" placeholder="Ingrese su nombre" required>
+                </div>
+                <br>
+                <div class="campo">
+                    <label>Apellido</label>
+                    <input type="text" placeholder="Ingrese su apellido" required>
+                </div>
+            </div>
+            <br>
+            <div class="fila">
+                <div class="campo">
+                    <label>Tipo de documento</label>
+                    <select>
+                        <option disabled selected>Tipo</option>
+                        <option>C.C</option>
+                        <option>T.I</option>
+                        <option>Otro</option>
+                    </select>
+                </div>
+                <br>
+                <div class="campo">
+                    <label>Número de documento</label>
+                    <input type="number" placeholder="Ingrese su número de documento">
+                </div>
+            </div>
+            <br>
+            <div class="fila">
+                <div class="campo">
+                    <label>Correo electrónico</label>
+                    <input type="email" placeholder="Ingrese su correo">
+                </div>
+                <br>
+                <div class="campo">
+                    <label>Número de teléfono</label>
+                    <input type="tel" placeholder="Ingrese su teléfono">
+                </div>
+            </div>
+            <br>
+            <div class="campo">
+                <label>Dirección</label>
+                <input type="text" placeholder="Ingrese su dirección">
+            </div>
+            <br>
+            <div class="fila">
+                <div class="campo">
+                    <label>Fecha de nacimiento</label>
+                    <input type="date">
+                </div>
+                <br>
+                <div class="campo">
+                    <label>Edad</label>
+                    <input type="number" placeholder="Ingrese su edad">
+                </div>
+            </div>
+            <br>
+            <div class="campo">
+                <label>Género</label>
+                <div class="genero">
+                    <input type="radio" name="genero"> Mujer
+                    <input type="radio" name="genero"> Hombre
+                    <input type="radio" name="genero"> Otro
+                    </div>
+            </div>
+            <br>
+            <div class="campo">
+                <label>Preferencia</label>
+                <select>
+                    <option>Fútbol</option>
+                    <option>Baloncesto</option>
+                    <option>Tenis</option>
+                    <option>Natación</option>
+                </select>
+            </div>
+            <br>
+            <div class="campo">
+                <label>Comentarios</label>
+                <textarea placeholder="Ingrese sus comentarios"></textarea>
+            </div>
+            <br>
+            <button  type="submit">Enviar</button>
+
+</form>
+</div>
+
 </body>
 </html>
