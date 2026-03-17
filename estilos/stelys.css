@@ -7,7 +7,7 @@ body{
 
 ul{
     list-style: none;
-    padding: 25px;
+    padding: 40px;
     margin: 0 auto;
     display: flex;
     grid-row: auto;
@@ -56,6 +56,7 @@ h2{
     margin-right: auto;
     width: 30%;
     border-radius: 15px;
+    box-shadow: 2px 2px 2px black;
 }
 footer{
     background-color: black;
@@ -100,3 +101,10 @@ th{
 tr:hover{
     background-color: rgb(220, 43, 226);
 }
+.img02{
+    height: 400px;
+    width: 600px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 2px black;
+}
+
