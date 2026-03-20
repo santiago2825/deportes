@@ -25,16 +25,19 @@ body{
 input, select, textarea{
     width: 100%;
     padding: 8px;
+    border-radius: 8px;
 
 }
 textarea{
     height: 80px;
+    
 }
 button{
     padding: 10px;
-    width: 100%;
+    width: 103%;
     font-size: 16px;
     cursor: pointer;
+    border-radius: 8px;
 }
 .genero{
     display: flex;
@@ -43,4 +46,9 @@ button{
 }
 h2{
     text-align: center;
+}
+input:focus, select:focus, textarea:focus, button:focus{
+    outline: none;
+    border-color: blueviolet;
+    box-shadow: 0 0 15px blueviolet  ;
 }
