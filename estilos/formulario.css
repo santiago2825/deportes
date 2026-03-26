@@ -52,3 +52,9 @@ input:focus, select:focus, textarea:focus, button:focus{
     border-color: blueviolet;
     box-shadow: 0 0 15px blueviolet  ;
 }
+button:hover{
+    background-color: rgb(177, 115, 231);
+    box-shadow: 2px 2px  2px  rgb(220, 77, 239) ;
+    transform: scale(1.02);
+    border: 1px solid purple;
+}
